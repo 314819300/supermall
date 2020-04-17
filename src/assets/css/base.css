@@ -1,0 +1,22 @@
+@import "./normalize.css";
+
+/**
+ * :root -> 获取根元素html,提前定义一些样式变量
+ * 使用，例如：font-size: var(--font-size);
+ */
+:root {
+  --color-text:#666;
+  --color-high-text: #ff5777;
+  --color-tint: #ff8198;
+  --color-background: #fff;
+  --font-size: 14px;
+  --line-height: 1.5
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
